@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>OCR Demo (Englisch + Deutsch)</title>
+  <!-- Google Fonts einbinden -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Externes CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>OCR mit Englisch + Deutsch</h1>
+    <input type="file" id="image-input" accept="image/*">
+    <pre id="ocr-result">Ergebnis wird hier angezeigt...</pre>
+  </div>
+  
+  <!-- Tesseract.js von einem CDN laden -->
+  <script src="https://unpkg.com/tesseract.js@2.1.4/dist/tesseract.min.js"></script>
+  <!-- Externes JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
